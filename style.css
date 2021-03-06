@@ -1,0 +1,104 @@
+body{
+    background: #252525;
+    font-family:'Times New Roman', Times, serif;
+    color: #fff;
+}
+
+.nav{
+    border-bottom: 2px solid #fff;
+}
+
+.nav__li{
+    display: inline-block;
+    padding: 10px;
+}
+
+.nav__li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav__li:hover > a {
+    border-bottom: 1px solid #fff;
+}
+
+.tarjetas__tarjeta{
+    border: 1px solid #fff;
+    padding-bottom: 5px;
+    margin: 10px;
+    display: inline-block;
+    width: 18rem;
+    padding: 10px;
+    text-align: justify;
+    color: #fff;
+
+}
+
+.tarjetas__tarjeta:hover{
+    background: #9e9999;
+}
+
+.tarjetas__tarjeta:active{
+    background: #ebe9e9;
+}
+
+.imagen{
+    padding: 10px;
+    width: 16rem;
+    height: 10rem;
+}
+
+
+.carta{
+   background: #fff;
+   color: #000;
+   padding: 10px;
+   margin: 0px;
+}
+
+.carta__p{
+    text-align: justify;
+}
+
+.boton{
+    color: #fff;
+    background-color: #000;
+
+    border: 1px solid #fff;
+}
+
+.register{
+    border: 1px dotted #fff;
+    padding: 40px;
+    text-align:center;
+    
+}
+
+.usuario{
+    font-size: 22px;
+    border: 1px black solid;
+}
+
+.password{
+    font-size: 22px;
+    border: 1px black solid;
+}
+
+.enter{
+    padding: 5px 40px 5px 40px;
+    background-color:#fff;
+    font-size: 16px;
+    border: none;
+    color: #000;
+}
+
+.nav__inputs{
+    display:inline-block;
+    position: absolute;
+    right: 0px;
+    width: 200px;
+    padding: 10px;
+}
+
+
+

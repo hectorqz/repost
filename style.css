@@ -1,6 +1,6 @@
 body{
     background: #252525;
-    font-family:'', Times, serif;
+    font-family:cursive;
     color: #fff;
 }
 
@@ -55,8 +55,8 @@ body{
     padding-bottom: 5px;
     margin: 10px;
     display: inline-block;
-    width: 18rem;
-    padding: 10px;
+    width: 17rem;
+    padding: 17px;
     text-align: justify;
     color: #fff;
 
@@ -106,16 +106,6 @@ body{
     
 }
 
-.usuario{
-    font-size: 22px;
-    border: 1px black solid;
-}
-
-.password{
-    font-size: 22px;
-    border: 1px black solid;
-}
-
 .enter{
     padding: 5px 40px 5px 40px;
     background-color:#fff;
@@ -131,6 +121,12 @@ body{
     width: 300px;
 
 }
+.INPUTS__iniciar:hover{
+    background: #ffffffd2;
+}
 
+.INPUTS__registrar:hover{
+    background:#ffffffd2;
+}
 
 
